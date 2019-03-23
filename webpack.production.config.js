@@ -56,7 +56,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'
         }),
-        new CleanWebpackPlugin('dist'),
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Hello world',
             template: 'src/index.hbs',
